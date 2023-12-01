@@ -90,9 +90,3 @@ h1 {
   h3{
     align-self: center;
   }
- @media (max-width:600px){
-    .article{
-      float: right;
-      width:70%
-    }
-  }
