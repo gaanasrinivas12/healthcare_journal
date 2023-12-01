@@ -1,0 +1,92 @@
+.iframeContainer {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    
+  }
+  
+  /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+  html {
+    position: relative;
+    min-height: 100%;
+   
+  }
+  
+  body {
+    /* Padding bottom by footer height */
+    padding-bottom: 80px;
+    background-color: #f4f4f4;
+  }
+  
+  #scatter::before {
+      position: relative;
+      top: 420px;
+      left: 100px;
+      z-index: -1;
+      display: block;
+      width: 820px;
+      height: 400px;
+      content: " ";
+      background-image: url("india_health.jpg");
+      background-repeat: no-repeat;
+      /* background-position: 50% 0;
+      background-size: cover; */
+      opacity: 0.3;
+    }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  .col-xs-12.col-md-12 {
+    background-color: #333; /* Set your desired background color here */
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+h1 {
+    color: white;
+    text-wrap: balance;
+    font-size: 100px;
+    text-align: center;
+    margin: 0; /* Remove default margin to avoid spacing issues */
+   
+}
+
+  ul{
+    float: left;
+  }
+  #header {
+    position: absolute;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 10px;
+    text-align: center;
+    background-color: #333;
+    
+  }
+  .akshielovesemo{
+    margin-top:200px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .article{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  h3{
+    align-self: center;
+  }
